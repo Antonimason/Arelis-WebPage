@@ -5,7 +5,9 @@
     align-items: center;
     flex-direction: column;
 }
-
+.about__pictures{
+    width:100%;
+}
 .about__title{
     font-size: 3em;
     padding: 0.8rem;
@@ -13,6 +15,7 @@
 }
 .about__img{
     object-fit: cover;
+    width:100%;
 }
 
 .about__text{
@@ -33,7 +36,7 @@
     font-size: 2em;
 }
 
-@media only screen and (width > 722px){
+@media only screen and (width > 752px){
     .about__pictures{
         display:flex;
     }
