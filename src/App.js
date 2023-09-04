@@ -2,6 +2,7 @@ import './App.css';
 import React from 'react';
 import Header from "./Components/Header/Header.js";
 import Home from "./Components/Home/Home.js";
+import About from './Components/About/About';
 import Services from './Components/Services/Services';
 
 function App() {
@@ -10,10 +11,13 @@ function App() {
       <div className="Header">
         <Header/>
       </div>
-      <div className="Home">
+      <div className="Home width--control">
         <Home/>
       </div>
-      <div className="Services">
+      <div className="About width--control">
+        <About/>
+      </div>
+      <div className="Services width--control">
         <Services/>
       </div>
     </div>

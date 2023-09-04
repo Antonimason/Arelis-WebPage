@@ -6,14 +6,12 @@
     position: fixed;
     z-index: 5;
 }
-.Home{
+.width--control{
     width: 100%;
     max-width: 90rem;
-    margin: 0 auto;
-    height: 100vh;
+    margin: 2rem auto;
 }
-.Services{
-    width: 100%;
-    max-width: 90rem;
+.Home{
+    height: 100vh;
     margin: 0 auto;
 }
