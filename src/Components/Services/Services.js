@@ -7,17 +7,17 @@ function Services () {
     return (
         <div className = "services">
             <div className="services__gallery">
-                <div className="services__picture services__picture--wide">
-                    <h3 className="services__title services__title--wide">Asesoria Presencial</h3>
-                    <img className="services__img services__img--wide" src={Box1} alt="Asesoria Presencial"/>
+                <div className="services__box services__box--wide">
+                    <h3 className="services__title">Asesoria Presencial</h3>
+                    <img className="services__img" src={Box1} alt="Asesoria Presencial" width="480px" height="480px"/>
                 </div>
-                <div className="services__picture services__picture--narrow">
-                    <h3 className="services__title services__title--narrow">Asesoria Online</h3>
-                    <img className="services__img services__img--narrow" src={Box2} alt="Asesoria Online"/>
+                <div className="services__box">
+                    <h3 className="services__title">Asesoria Online</h3>
+                    <img className="services__img" src={Box2} alt="Asesoria Online" width="480px" height="480px"/>
                 </div>
-                <div className="services__picture services__picture--narrow">
-                    <h3 className="services__title services__title--narrow">Estudio Colorimetría</h3>
-                    <img className="services__img services__img--narrow" src={Box3} alt="Estudio Colorimetría"/>
+                <div className="services__box">
+                    <h3 className="services__title">Estudio Colorimetría</h3>
+                    <img className="services__img" src={Box3} alt="Estudio Colorimetría" width="480px" height="480px"/>
                 </div>
             </div>
         </div>
