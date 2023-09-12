@@ -19,6 +19,7 @@
     height:40rem;
     object-fit: cover;
     margin: 2.0rem 0;
+    overflow: hidden;
 }
 .services__title{
     width:100%;
@@ -33,6 +34,7 @@
     width:100%;
     height: 100%;
     object-fit: cover;
+    cursor:pointer;
 }
 
 @media only screen and (width > 724px) {
@@ -40,9 +42,9 @@
         display:grid;
         height: 80vh;
         width: 90%;
-        grid-template-columns: 25rem 1fr;
-        grid-template-rows: 25rem 1fr;
-        grid-gap: 1.5rem 0.625rem;
+        grid-template-columns: 20rem 20rem;
+        grid-template-rows: 22rem 22rem;
+        grid-gap:0.625rem 0.625rem;
     }
     .services__box{
         height: 100%;
@@ -59,4 +61,5 @@
         flex-wrap: nowrap;
     }
     .services__title{font-size: 1.7em;}
+    .services__box:hover{opacity:0.5;}
 }

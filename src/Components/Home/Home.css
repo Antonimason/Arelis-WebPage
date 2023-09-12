@@ -22,7 +22,7 @@
 .home__subtitle{
     font-size: 1.2em;
 }
-.home__imgtext{
+.home__imgText{
     display:none;
 }
 
@@ -77,4 +77,15 @@
         align-content: flex-end;
     }
 }
-
+@media (600px <= width <= 1000px) and (min-height: 850px) {
+    .home{
+        height:80%;
+    }
+    .home__img{
+        width: 50%;
+        height: 600px;
+    }
+    .home__text{
+        height: 30%;
+    }
+}
